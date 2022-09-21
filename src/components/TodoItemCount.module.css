@@ -1,0 +1,33 @@
+.todoInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoInfo > div {
+    display: flex;
+    gap: .5rem;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.todoInfo > div .amount {
+    padding: 0 .4rem;
+    background: var(--gray-400);
+    border-radius: 1rem; 
+}
+
+.tasks .title {
+    color: var(--blue);
+}
+
+.completedTasks .title {
+    color: var(--purple);
+}
+
+.tasks .amount, .completedTasks .amount {
+    color: var(--white);
+}
+
+.todoContainer .todoList {
+    margin-top: 1.5rem;
+}

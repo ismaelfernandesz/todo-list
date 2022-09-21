@@ -1,0 +1,36 @@
+.wrapper {
+    margin: auto;
+    max-width: 40rem;
+    padding: 0 1rem;
+}
+
+.wrapper .search {
+    width: 100%;
+    transform: translateY(-50%);
+    margin-bottom: 3rem;
+}
+
+.onIsEmpty {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--gray-300);
+    line-height: 1.4;
+    border-top: 1px solid var(--gray-300);
+    padding-top: 4rem;
+    border-radius: .5rem;
+}
+
+.onIsEmpty img {
+    margin-bottom: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+.todoList {
+    margin-top: 1.5rem;
+}
+
